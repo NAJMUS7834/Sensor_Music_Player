@@ -1,4 +1,7 @@
 package com.example.najmus.lightplayer;
+/*====================================
+    Author : NAJMUS SEEMAB
+======================================*/
 
 import android.app.Service;
 import android.hardware.Sensor;

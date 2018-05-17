@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         if (event.values[0] > 20 && isRunning == false) {
             isRunning = true;
             try {
-                mp.setDataSource ( "http://WWW.hungama.com/album/baaghi-2/33939236/" );
+                mp.setDataSource ( "http://WWW.hungama.com/album/baaghi-2/33939236/" );//if music will not play use some other link
                 mp.prepare ();
                 mp.start ();
             } catch (Exception ex) {
